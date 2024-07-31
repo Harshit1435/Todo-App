@@ -2,7 +2,9 @@ import React from 'react';
 export default function Alert(props){
     const captalize =(word)=>{
         const text=word.toLowerCase();
-        return text.charAt(0).toUpperCase() + text.slice(1);
+        return text.charAt(0).toUpperCase() + text.slice(1); 
+
+        
     }
     return(
         <div style={{height:'50px'}}>
